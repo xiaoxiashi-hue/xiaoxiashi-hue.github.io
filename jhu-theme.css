@@ -1,0 +1,25 @@
+/* Official Johns Hopkins palette: Heritage Blue and Spirit Blue. */
+:root { --heritage-blue: #002d72; --spirit-blue: #68ace5; }
+body { margin: 0; }
+a:link, a:visited { color: var(--heritage-blue); }
+a:hover { text-decoration: underline; }
+a:focus-visible { outline: 3px solid var(--spirit-blue); outline-offset: 3px; }
+.jhu-logo { display: block; width: 160px; height: auto; margin: 24px auto; }
+.university-name { color: var(--heritage-blue); font-size: 16px; font-weight: bold; }
+.department-name { color: var(--heritage-blue); font-size: 25px; font-weight: bold; }
+.utility-link { display: inline-block; color: white; margin: 5px 10px; font-size: 12px; }
+.navbodyblack { padding-left: 12px; padding-right: 12px; }
+.navbodyblack a:hover span, .breadcrumbs1 a:hover span { color: var(--spirit-blue) !important; }
+img { max-width: 100%; object-fit: contain; }
+.profile-row { display: flex; gap: 32px; height: auto !important; align-items: flex-start; }
+.profile-details { display: block; flex: 1 1 0; min-width: 0; height: auto !important; }
+.profile-photo { display: block; flex: 0 0 400px; height: auto !important; }
+.portrait { display: block; width: 400px; max-width: 100%; height: auto; }
+@media (max-width: 760px) {
+  body { overflow-x: auto; }
+  .navbodyblack a span { font-size: 14px; }
+  .department-name { font-size: 20px; }
+  .profile-row { flex-direction: column; }
+  .profile-details { flex: auto; width: 100%; }
+  .profile-photo { flex: auto; width: 100%; max-width: 400px; }
+}

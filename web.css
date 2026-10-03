@@ -1,0 +1,253 @@
+/* The following six styles set attibutes for heading tags H1-H6 */
+
+H1  {
+	margin-bottom: 5px;
+	text-align: left;
+	color: #000000;
+	font-size: 150%;
+	font-weight: bold;
+	font-family: verdana, geneva, arial, sans-serif;
+	line-height: 195%
+	}
+
+
+H2 {
+	margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    color: #000000;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: verdana, geneva, arial, sans-serif;
+    line-height: 150%
+    }
+
+
+
+H3  {
+    margin-top: 20px;
+    margin-bottom: -10px;
+    text-align: left;
+    color: #000000;
+    font-size: 95%;
+    line-height: 130%;
+    font-weight: bold;
+    font-family: verdana, geneva, arial, sans-serif;
+    width: 100%
+    }
+
+
+H4  {
+    margin-top: 15px;
+    margin-bottom: -10px;
+    text-align: left;
+    color: #000000;
+    font-size: 95%;
+    font-weight: bold;
+    font-family: verdana, geneva, arial, sans-serif;
+    width: 100%
+    }
+
+
+
+H5  {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    text-align: left;
+    color: #000000;
+    font-size: 95%;
+    font-weight: bold;
+    font-family: verdana, geneva, arial, sans-serif;
+    width: 100%
+    }
+
+
+H6  {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    text-align: left;
+    color: #000000;
+    font-size: 95%;
+    font-weight: bold;
+    font-family: verdana, geneva, arial, sans-serif;
+    width: 100%
+    }
+
+/* The following element defines the appearance of non-heading text in the web page */
+
+body {  
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica,sans-serif;
+}
+
+P {  
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica,sans-serif;
+}
+
+OL {  
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica,sans-serif;
+}
+
+UL {
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica,sans-serif;
+}
+
+
+/* The following custom classes are used in different locations of the template */
+
+.bodywhite {               
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #000000;               
+}
+.bodywhite a:link    {
+	color:#ffffff; text-decoration: none; 
+}
+.bodywhite a:visited {
+	color:#ffffff; text-decoration: none;
+}
+.bodywhite a:hover   {
+	color:#68ACE5; text-decoration: none;
+}			
+.bgwhite {
+	background-color: #ffffff;
+}
+.bggreyc {
+	background-color: #cccccc;
+}
+.bgred {  
+	background-color: #002D72;
+}
+.bgblack {  
+	background-color: #000000;
+}
+.bggold {  
+	background-color: #68ACE5;
+}
+.bgred-crest {  
+	background-color: #002D72;
+	background-image: url(images/brg_bg.gif);					background-repeat: repeat-x;
+}
+				
+.bg-vert-shadow {  
+	background-image: url(images/v_shadow1.gif);
+}
+
+.bg-hor-shadow {  
+	background-image: url(images/h_shadow1.gif);
+}
+			
+.copyright {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 80%;
+}
+
+.navhead { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	background-color: #002D72; 
+	color: #cccccc; 
+	padding-left: 8px; 
+	padding-top: 8px; 
+	padding-bottom: 0px; 
+	padding-right: 0px;  
+	font-weight: normal;
+	margin: 0px;
+}
+
+.navbodyblack { 
+	font-family: Verdana,Arial, Helvetica, sans-serif; 
+	color: #ffffff; 				background-color: #002D72; 
+	text-decoration: none; 		padding-left: 8px; 
+	padding-top: 5px; 		padding-bottom: 5px; 
+	padding-right: 2px; 
+	font-weight: normal;
+	margin: 0px; 
+}
+
+.searchbox { 
+	padding-left: 8px; 
+	padding-bottom: 5px;
+	padding-top: 0px;
+}
+
+.navbodyblack a:link    {
+	color:#ffffff; 
+	text-decoration: none;
+}
+
+.navbodyblack a:visited {
+	color:#ffffff; 
+	text-decoration: none;
+}
+
+.navbodyblack a:hover   {
+	color:#68ACE5; 
+	text-decoration: none;
+}
+
+.navhead a:link {
+	color:#000000; 
+	text-decoration: none;
+}
+
+.navhead a:visited {
+	color:#000000;
+	text-decoration: none;
+}
+
+.navhead a:hover   {
+	color:#68ACE5; 
+	text-decoration: none;
+}
+
+.bgred {  
+	background-color:#002D72;
+}
+
+.breadcrumbs { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 				color: #cccccc; 
+	background-color: #002D72; 				text-decoration: none;			
+}
+
+.breadcrumbs a:link    {
+	color:#ffffff; 	text-decoration	: none;
+}
+
+.breadcrumbs a:visited {
+	color:#ffffff; 
+	text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+	color:#68ACE5; 
+	text-decoration: none;
+}
+
+
+.breadcrumbsblack { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #cccccc; 
+	background-color: #000000; 				text-decoration: none;
+}
+
+.breadcrumbsblack a:link    {
+	color:#ffffff; 
+	text-decoration: none;
+ }
+
+.breadcrumbsblack a:visited {
+	color:#ffffff; 
+	text-decoration: none;
+}
+.breadcrumbsblack a:hover   {
+	color:#68ACE5; 
+	text-decoration: none;
+}
+.search {
+	font-size: .01em;
+	color: #002D72;
+}
+.big_red {  font-size: 24px; color: #002D72; font-variant: small-caps; font-family: Verdana, Arial, Helvetica, sans-serif}
